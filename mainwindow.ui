@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1125</width>
+    <height>708</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2" rowstretch="0" columnstretch="0">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QGroupBox" name="groupBox_2">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="title">
+              <string>User Setting</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="0" column="0">
+               <widget class="QLabel" name="label_7">
+                <property name="text">
+                 <string>From</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="2">
+               <widget class="QDateTimeEdit" name="dateTimeEdit_3"/>
+              </item>
+              <item row="0" column="4">
+               <widget class="QLabel" name="label_8">
+                <property name="text">
+                 <string>Client</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="5" colspan="3">
+               <widget class="QLineEdit" name="lineEdit_5"/>
+              </item>
+              <item row="0" column="8">
+               <widget class="QLabel" name="label_10">
+                <property name="text">
+                 <string>Vendor</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="9">
+               <widget class="QLineEdit" name="lineEdit_6"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_11">
+                <property name="text">
+                 <string>to</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1" colspan="2">
+               <widget class="QDateTimeEdit" name="dateTimeEdit_4"/>
+              </item>
+              <item row="1" column="4" colspan="2">
+               <widget class="QLabel" name="label_12">
+                <property name="text">
+                 <string>Country</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="6" colspan="2">
+               <widget class="QLineEdit" name="lineEdit_7"/>
+              </item>
+              <item row="1" column="8">
+               <widget class="QLabel" name="label_13">
+                <property name="text">
+                 <string>MCCMNC</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="9">
+               <widget class="QLineEdit" name="lineEdit_8"/>
+              </item>
+              <item row="1" column="10">
+               <widget class="QLabel" name="label_14">
+                <property name="text">
+                 <string>ANI</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="11">
+               <widget class="QLineEdit" name="lineEdit_9"/>
+              </item>
+              <item row="2" column="0" colspan="2">
+               <widget class="QRadioButton" name="radioButton_8">
+                <property name="text">
+                 <string>OTP</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QRadioButton" name="radioButton_9">
+                <property name="text">
+                 <string>Primum Direct</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="3">
+               <widget class="QRadioButton" name="radioButton_10">
+                <property name="text">
+                 <string>Wholesale</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="4" colspan="2">
+               <widget class="QRadioButton" name="radioButton_11">
+                <property name="text">
+                 <string>Other</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="6">
+               <widget class="QPushButton" name="pushButton_8">
+                <property name="text">
+                 <string>Run</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="7">
+               <widget class="QPushButton" name="pushButton_9">
+                <property name="text">
+                 <string>Export</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="9">
+               <widget class="QPushButton" name="pushButton_10">
+                <property name="text">
+                 <string>GraphView</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_4">
+             <property name="title">
+              <string>content</string>
+             </property>
+             <layout class="QGridLayout" name="gridLayout">
+              <item row="0" column="0">
+               <widget class="QRadioButton" name="radioButton_17">
+                <property name="text">
+                 <string>Content setting</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1" colspan="3">
+               <widget class="QLineEdit" name="lineEdit_11"/>
+              </item>
+              <item row="1" column="0">
+               <widget class="QPushButton" name="pushButton_7">
+                <property name="text">
+                 <string>Open file</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="1">
+               <widget class="QCheckBox" name="checkBox_12">
+                <property name="text">
+                 <string>TPC</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="2">
+               <widget class="QCheckBox" name="checkBox_13">
+                <property name="text">
+                 <string>DLR</string>
+                </property>
+               </widget>
+              </item>
+              <item row="3" column="3">
+               <widget class="QCheckBox" name="checkBox_14">
+                <property name="text">
+                 <string>Delay</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="3">
+               <widget class="QLabel" name="label_6">
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_5">
+          <property name="title">
+           <string/>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="1" column="0">
+            <widget class="QTableWidget" name="tableWidget_2">
+             <property name="alternatingRowColors">
+              <bool>true</bool>
+             </property>
+             <row>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>6</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>7</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>8</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>9</string>
+              </property>
+             </row>
+             <row>
+              <property name="text">
+               <string>10</string>
+              </property>
+             </row>
+             <column>
+              <property name="text">
+               <string>1</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>2</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>3</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>4</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>5</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>6</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>7</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>8</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>9</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>10</string>
+              </property>
+             </column>
+             <item row="0" column="0">
+              <property name="text">
+               <string>1/1</string>
+              </property>
+             </item>
+             <item row="0" column="1">
+              <property name="text">
+               <string>2/1</string>
+              </property>
+             </item>
+             <item row="1" column="0">
+              <property name="text">
+               <string>1/2</string>
+              </property>
+             </item>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_9">
+             <property name="text">
+              <string>EDRs</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QGraphicsView" name="graphicsView">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>40</y>
+          <width>971</width>
+          <height>351</height>
+         </rect>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1125</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuStyle">
+    <property name="title">
+     <string>Style</string>
+    </property>
+    <addaction name="actionLight"/>
+    <addaction name="actionDark"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <addaction name="actionGraphView"/>
+   </widget>
+   <addaction name="menuStyle"/>
+   <addaction name="menuView"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionTest"/>
+   <addaction name="actionTest_2"/>
+   <addaction name="actionTest3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionTest">
+   <property name="text">
+    <string>Test</string>
+   </property>
+  </action>
+  <action name="actionTest_2">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Test</string>
+   </property>
+  </action>
+  <action name="actionTest_3">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Test</string>
+   </property>
+  </action>
+  <action name="actionTest3">
+   <property name="text">
+    <string>Test3</string>
+   </property>
+  </action>
+  <action name="actionTest3_2">
+   <property name="text">
+    <string>Test3</string>
+   </property>
+  </action>
+  <action name="actionLight">
+   <property name="text">
+    <string>Light</string>
+   </property>
+  </action>
+  <action name="actionDark">
+   <property name="text">
+    <string>Dark</string>
+   </property>
+  </action>
+  <action name="actionGraphView">
+   <property name="text">
+    <string>GraphView</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
